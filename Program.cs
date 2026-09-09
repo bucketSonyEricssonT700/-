@@ -7,10 +7,11 @@ using System.Text.RegularExpressions;
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("1 - Ввести запрос\n2 - Посмотреть запросы\n3 - Удалить запрос");
+			Console.WriteLine("1 - Ввести запрос");
+			Console.WriteLine("2 - Посмотреть запросы\n3 - Удалить запрос");
 			string pick = Console.ReadLine();
 
-			string request = ";
+			string request = "";
 
 
 			switch(pick)
