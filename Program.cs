@@ -9,7 +9,9 @@ using System.Text.RegularExpressions;
 		{
 			Console.WriteLine("1 - Ввести запрос\n2 - Посмотреть запросы\n3 - Удалить запрос");
 			string pick = Console.ReadLine();
+
 			string request = "NoNe";
+
 
 			switch(pick)
 			{
